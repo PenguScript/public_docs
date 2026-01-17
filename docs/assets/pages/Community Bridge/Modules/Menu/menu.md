@@ -35,6 +35,7 @@ local Bridge = exports['community_bridge']:Bridge()
 
 -- Open a simple menu
 local menuId = Bridge.Menu.Open({
+    id = "vehicle_menu",
     title = "Vehicle Options",
     description = "Choose an action for your vehicle",
     options = {
